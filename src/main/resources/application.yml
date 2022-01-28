@@ -1,0 +1,12 @@
+
+spring:
+  data:
+    mongodb:
+      database: reactWorkshop
+      port: 54321
+
+  mongodb:
+    embedded:
+      version: '4.0.2'
+server:
+  port: 8765
